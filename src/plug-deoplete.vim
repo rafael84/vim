@@ -26,3 +26,8 @@ set completeopt-=preview
 
 " Auto select
 set completeopt+=noinsert
+
+" Patterns
+let g:deoplete#omni_patterns = {}
+let g:deoplete#omni_patterns.terraform = '[^ *\t"{=$]\w*'
+call deoplete#initialize()

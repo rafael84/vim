@@ -11,7 +11,9 @@ Plug 'elzr/vim-json', {'for' : 'json'}
 Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 Plug 'fatih/vim-nginx', {'for' : 'nginx'}
 Plug 'flazz/vim-colorschemes'
+Plug 'hashivim/vim-terraform'
 Plug 'jiangmiao/auto-pairs'
+Plug 'juliosueiras/vim-terraform-completion'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'majutsushi/tagbar'
@@ -25,7 +27,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-
+Plug 'vim-syntastic/syntastic'
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
