@@ -47,3 +47,5 @@ Plug 'Shougo/echodoc.vim'
 Plug 'vim-airline/vim-airline'
 
 Plug 'kien/ctrlp.vim'
+
+Plug 'editorconfig/editorconfig-vim'
