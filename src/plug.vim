@@ -49,3 +49,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'kien/ctrlp.vim'
 
 Plug 'editorconfig/editorconfig-vim'
+
+Plug 'udalov/kotlin-vim'
