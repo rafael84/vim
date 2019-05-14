@@ -51,3 +51,5 @@ Plug 'kien/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
 
 Plug 'udalov/kotlin-vim'
+Plug 'inkarkat/vim-SyntaxRange'
+Plug 'leafgarland/typescript-vim'
