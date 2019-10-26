@@ -48,3 +48,6 @@ autocmd BufReadPost *
 
 " Remember info about open buffers on close
 set viminfo^=%
+
+" Remove trailing spaces on save
+autocmd BufWritePre * :%s/\s\+$//e
