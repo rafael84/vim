@@ -1,24 +1,38 @@
 Plug 'AndrewRadev/sideways.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'Olical/conjure', { 'tag': 'v2.1.2', 'do': 'bin/compile' }
 Plug 'Raimondi/delimitMate'
+Plug 'Shougo/echodoc.vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'airblade/vim-gitgutter'
 Plug 'bronson/vim-visual-star-search'
 Plug 'chase/vim-ansible-yaml'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'ekalinin/Dockerfile.vim'
-Plug 'elzr/vim-json', {'for' : 'json'}
-Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
-Plug 'fatih/vim-nginx', {'for' : 'nginx'}
+Plug 'elzr/vim-json', {'for':   'json'}
+Plug 'fatih/vim-go', {'do':     ':GoUpdateBinaries'}
+Plug 'fatih/vim-nginx', {'for': 'nginx'}
 Plug 'flazz/vim-colorschemes'
+Plug 'guns/vim-sexp'
 Plug 'hashivim/vim-terraform'
+Plug 'inkarkat/vim-SyntaxRange'
 Plug 'jiangmiao/auto-pairs'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-easy-align'
+Plug 'kien/ctrlp.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'luochen1990/rainbow'
 Plug 'majutsushi/tagbar'
+Plug 'mattn/emmet-vim'
 Plug 'matze/vim-move'
 Plug 'mileszs/ack.vim'
+Plug 'mxw/vim-jsx'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tmhedberg/matchit'
@@ -26,12 +40,11 @@ Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'tpope/vim-surround'
+Plug 'udalov/kotlin-vim'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
-Plug 'othree/html5.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'mattn/emmet-vim'
 Plug 'w0rp/ale'
 
 if has('nvim')
@@ -42,21 +55,3 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 Plug 'zchee/deoplete-go', { 'do': 'make'}
-Plug 'Shougo/echodoc.vim'
-
-Plug 'vim-airline/vim-airline'
-
-Plug 'kien/ctrlp.vim'
-
-Plug 'editorconfig/editorconfig-vim'
-
-Plug 'udalov/kotlin-vim'
-Plug 'inkarkat/vim-SyntaxRange'
-Plug 'leafgarland/typescript-vim'
-Plug 'guns/vim-clojure-static'
-Plug 'luochen1990/rainbow'
-Plug 'guns/vim-sexp'
-Plug 'tpope/vim-sexp-mappings-for-regular-people'
-Plug 'tpope/vim-fireplace'
-Plug 'tpope/vim-fireplace'
-Plug 'guns/vim-slamhound'

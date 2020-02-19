@@ -27,6 +27,9 @@ set completeopt-=preview
 " Auto select
 set completeopt+=noinsert
 
+" Clojure
+call deoplete#custom#option('keyword_patterns', {'clojure': '[\w!$%&*+/:<=>?@\^_~\-\.#]*'})
+
 " Patterns
 let g:deoplete#omni_patterns = {}
 let g:deoplete#omni_patterns.terraform = '[^ *\t"{=$]\w*'

@@ -10,6 +10,7 @@ syntax enable
 
 let mapleader = ","
 let g:mapleader = ","
+let maplocalleader = "\<space>"
 
 " ; to : while in normal mode
 nnoremap ; :
