@@ -1,0 +1,78 @@
+{
+  "coc.source.conjure.priority": 99,
+  "suggest.maxCompleteItemCount": 15,
+  "suggest.noselect": false,
+  "suggest.removeDuplicateItems": true,
+  "javascript.suggest.enabled": true,
+  "languageserver": {
+    "clojure-lsp": {
+      "command": "bash",
+      "args": ["-c", "clojure-lsp"],
+      "filetypes": ["clojure"],
+      "disableDiagnostics": true,
+      "rootPatterns": ["project.clj", "deps.edn"],
+      "additionalSchemes": ["zipfile", "jar"],
+      "trace.server": "off",
+      "initializationOptions": {
+        "source-paths": ["src", "test", "src-common", "workspaces"],
+        "macro-defs": {
+          "nubank.shuffle.common.ui.helpers/defc": [
+            "declaration", "params", "bound-elements"
+          ],
+          "midge.sweet/fact": [
+            "element", "element", "_", "element"
+          ],
+          "schema.core/def": [
+            "declaration", "elements"
+          ],
+          "schema.core/defn": [
+            {
+              "element": "declaration",
+              "signature": [
+                "vector"
+              ],
+              "doc?": true,
+              "{:element :element, :pred :keyword}": {
+                "element": "element",
+                "pred": "symbol"
+              },
+              "{:element :element, :pred :string}": {
+                "element": "element",
+                "pred": "map"
+              },
+              "{:element :sub-elements}": "match-patterns",
+              "[[:symbol :keyword :any] [:param :element :element] [:symbol] [:param]]": "bound-elements"
+            }
+          ],
+          "schema.core/fn": [
+            "declaration", "params", "bound-elements"
+          ],
+          "schema.core/defschema": [
+            "declaration", "params", "bound-elements"
+          ],
+          "fulcro.client.primitives/defsc": [
+            "declaration", "params", "bound-elements"
+          ],
+          "com.fulcrologic.fulcro.components/defsc": [
+            "declaration", "params", "bound-elements"
+          ],
+          "com.fulcrologic.fulcro.ui-state-machines/defstatemachine": [
+            "declaration", "params", "bound-elements"
+          ],
+          "com.fulcrologic.fulcro.mutations/defmutation": [
+            "declaration", "params", "bound-elements"
+          ],
+          "com.wsscode.pathom.connect/defresolver": [
+            "declaration", "params", "bound-elements"
+          ],
+          "com.wsscode.pathom.connect/defmutation": [
+            "declaration", "params", "bound-elements"
+          ],
+          "ghostwheel.core/>defn": [
+            "declaration", "params", "bound-elements"
+          ]
+        }
+      }
+    }
+  }
+}
