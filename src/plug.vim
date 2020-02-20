@@ -1,7 +1,6 @@
 Plug 'AndrewRadev/sideways.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ConradIrwin/vim-bracketed-paste'
-Plug 'Olical/conjure', { 'tag': 'v2.1.2', 'do': 'bin/compile' }
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/echodoc.vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
@@ -11,8 +10,8 @@ Plug 'chase/vim-ansible-yaml'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ekalinin/Dockerfile.vim'
-Plug 'elzr/vim-json', {'for':   'json'}
-Plug 'fatih/vim-go', {'do':     ':GoUpdateBinaries'}
+Plug 'elzr/vim-json', {'for': 'json'}
+Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
 Plug 'fatih/vim-nginx', {'for': 'nginx'}
 Plug 'flazz/vim-colorschemes'
 Plug 'guns/vim-sexp'
@@ -45,6 +44,9 @@ Plug 'udalov/kotlin-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
+
+Plug 'guns/vim-clojure-static', {'for': 'clojure'}
+Plug 'tpope/vim-fireplace', {'for': 'clojure'}
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
