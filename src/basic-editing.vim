@@ -30,3 +30,6 @@ autocmd BufWrite *.vim :call DeleteTrailingWS()
 " visual shifting (does not exit Visual mode)
 vnoremap < <gv
 vnoremap > >gv
+
+" use SPACE to exit VISUAL MODE
+vnoremap <Space> <Esc>gV
