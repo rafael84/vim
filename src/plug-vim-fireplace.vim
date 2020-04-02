@@ -2,3 +2,4 @@
 " Plug 'tpope/vim-fireplace'
 "------------------------------------------------------------------------------
 nmap rr :Require<cr>
+nmap ee :Eval<cr>
