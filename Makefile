@@ -89,7 +89,7 @@ ifdef NVIM
 	@echo '     exec ":source " . vimrc' >> $(NVIM_INIT)
 	@echo 'endif' >> $(NVIM_INIT)
 endif
-	@$(VIM) +PlugInstall +qall
+	@$(VIM) +PlugClean +PlugInstall +qall
 	@$(VIM) +GoInstallBinaries +qall
 
 $(VIM_DIR):
