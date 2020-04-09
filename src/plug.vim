@@ -45,6 +45,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 Plug 'jremmen/vim-ripgrep'
+Plug 'vim-scripts/AnsiEsc.vim'
 
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}
 Plug 'tpope/vim-fireplace', {'for': 'clojure'}
