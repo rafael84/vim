@@ -7,7 +7,7 @@ autocmd FileType clojure nmap <silent> gd <Plug>(coc-definition)
 autocmd FileType clojure nmap <silent> gy <Plug>(coc-type-definition)
 autocmd FileType clojure nmap <silent> gi <Plug>(coc-implementation)
 autocmd FileType clojure nmap <silent> gr <Plug>(coc-references)
-autocmd FileType clojure nmap <leader>rn <Plug>(coc-rename)
+autocmd FileType clojure nmap ren <Plug>(coc-rename)
 
 " Give more space for displaying messages.
 set cmdheight=2

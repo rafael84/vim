@@ -47,6 +47,9 @@ Plug 'w0rp/ale'
 Plug 'jremmen/vim-ripgrep'
 Plug 'vim-scripts/AnsiEsc.vim'
 
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-colorscheme-switcher'
+
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}
 Plug 'tpope/vim-fireplace', {'for': 'clojure'}
 
