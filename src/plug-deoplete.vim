@@ -9,7 +9,10 @@
 let g:deoplete#enable_at_startup = 1
 
 " Use smartcase.
-let g:deoplete#enable_smart_case = 1
+call deoplete#custom#option({
+            \ 'auto_complete_delay': 200,
+            \ 'smart_case': v:true,
+            \ })
 
 " <C-h>, <BS>: close popup and delete backword char.
 inoremap <expr><C-h> deoplete#close_popup()."\<C-h>"
