@@ -2,7 +2,7 @@
 " Plug 'fatih/vim-go', { 'tag': '*' }
 "------------------------------------------------------------------------------
 
-let g:go_auto_type_info = 0
+let g:go_auto_type_info = 1
 let g:go_autodetect_gopath = 1
 let g:go_def_mode = "guru"
 let g:go_echo_command_info = 1
@@ -19,7 +19,7 @@ let g:go_highlight_space_tab_error = 0
 let g:go_highlight_structs = 1
 let g:go_highlight_trailing_whitespace_error = 0
 let g:go_highlight_types = 0
-let g:go_info_mode = "gocode"
+let g:go_info_mode = "guru"
 let g:go_list_type = ""
 let g:go_modifytags_transform = 'camelcase'
 
