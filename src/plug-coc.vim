@@ -35,10 +35,6 @@ function! s:show_documentation()
 endfunction
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
-" Disable deoplete for Clojure
-autocmd FileType clojure
-            \ call deoplete#custom#buffer_option('auto_complete', v:false)
-
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
