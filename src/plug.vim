@@ -28,7 +28,7 @@ Plug 'majutsushi/tagbar'
 Plug 'matze/vim-move'
 Plug 'mileszs/ack.vim'
 Plug 'mxw/vim-jsx'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': 'clojure'}
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdtree'
