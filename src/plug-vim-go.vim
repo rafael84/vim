@@ -19,7 +19,6 @@ let g:go_highlight_space_tab_error = 0
 let g:go_highlight_structs = 1
 let g:go_highlight_trailing_whitespace_error = 0
 let g:go_highlight_types = 0
-let g:go_info_mode = "guru"
 let g:go_list_type = ""
 let g:go_modifytags_transform = 'camelcase'
 
