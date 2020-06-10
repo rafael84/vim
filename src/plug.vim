@@ -46,6 +46,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 Plug 'jremmen/vim-ripgrep'
 Plug 'vim-scripts/AnsiEsc.vim'
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'editorconfig/editorconfig-vim'
 
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-colorscheme-switcher'
