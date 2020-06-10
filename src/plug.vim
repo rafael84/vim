@@ -61,3 +61,5 @@ else
   Plug 'roxma/vim-hug-neovim-rpc', {'for': 'go'}
 endif
 Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
+
+Plug 'amadeus/vim-mjml'
