@@ -1,5 +1,3 @@
 "------------------------------------------------------------------------------
-" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'k0kubun/vim-open-github'
 "------------------------------------------------------------------------------
-let g:ctrlp_working_path_mode = 'ra'
-" let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
