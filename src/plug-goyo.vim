@@ -1,5 +1,6 @@
 "------------------------------------------------------------------------------
-" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'junegunn/goyo.vim'
 "------------------------------------------------------------------------------
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_extensions = ['line']
+let g:goyo_width = "80%"
+let g:goyo_height = "100%"
+nnoremap <silent> zen :Goyo <CR>

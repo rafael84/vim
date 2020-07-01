@@ -22,7 +22,7 @@ vmap <Leader>w <ESC><ESC>:w<CR>
 
 " :SudoW sudo saves the file
 " (useful for handling the permission-denied error)
-command SudoW w !sudo tee % > /dev/null
+silent! command SudoW w !sudo tee % > /dev/null
 
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
