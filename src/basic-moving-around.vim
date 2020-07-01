@@ -12,7 +12,7 @@ augroup VCenterCursor
         \ let &scrolloff=winheight(win_getid())/2
 augroup END
 
-" Treat long lines as break lines 
+" Treat long lines as break lines
 " (useful when moving around in them)
 map j gj
 map k gk
@@ -23,7 +23,7 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-" This is totally awesome - remap jj to escape in insert mode. 
+" This is totally awesome - remap jj to escape in insert mode.
 " You'll never type jj anyway, so it's great!
 inoremap jj <esc>
 nnoremap JJJJ <nop>
