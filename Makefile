@@ -50,11 +50,6 @@ endif
 endif
 
 
-.PHONY: plug-update
-plug-update:
-	@vim +PlugUpdate +qall
-
-
 .PHONY: install
 install: basic
 	@echo set runtimepath+="$(VIM_DIR)" > "$(VIMRC)"
@@ -106,3 +101,7 @@ $(VIM_DIR):
 .PHONY: clean
 clean:
 	@rm -rf $(VIM_DIR) $(VIMRC) $(NVIM_INIT)
+
+.PHONY: plug-update
+plug-update:
+	@vim +PlugUpdate +qall
