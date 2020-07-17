@@ -67,3 +67,5 @@ Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
 Plug 'amadeus/vim-mjml'
 Plug 'k0kubun/vim-open-github'
 Plug 'junegunn/goyo.vim'
+Plug 'vim-scripts/Tabmerge'
+Plug 'schickling/vim-bufonly'
