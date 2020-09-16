@@ -68,3 +68,4 @@ Plug 'junegunn/goyo.vim'
 Plug 'vim-scripts/Tabmerge'
 Plug 'schickling/vim-bufonly'
 Plug 'vim-scripts/paredit.vim'
+Plug 'snoe/clj-refactor.nvim', { 'do': 'yarn global add neovim' }
