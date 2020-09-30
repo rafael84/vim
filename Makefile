@@ -91,6 +91,7 @@ ifdef NVIM
 	@echo '     exec ":source " . vimrc' >> $(NVIM_INIT)
 	@echo 'endif' >> $(NVIM_INIT)
 endif
+	@cp $(SRC)/coc-settings.json $(NVIM_DIR)/coc-settings.json
 	@$(VIM) +PlugClean +PlugInstall +UpdateRemotePlugins +qall
 	@$(VIM) +GoInstallBinaries +qall
 	@$(VIM) '+CocInstall -sync $(COC_EXTENSIONS)' +qall

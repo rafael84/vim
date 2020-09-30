@@ -1,0 +1,18 @@
+{
+  "coc.preferences.useQuickfixForLocations": false,
+  "coc.preferences.jumpCommand": "drop",
+  "languageserver": {
+    "clojure-lsp": {
+      "command": "clojure-lsp",
+      "disableDiagnostics": true,
+      "filetypes": [ "clojure" ],
+      "rootPatterns": [ "project.clj", "deps.edn" ],
+      "additionalSchemes": [ "jar", "zipfile" ],
+      "trace.server": "verbose",
+      "initializationOptions": {
+        "source-paths": [ "src", "test" ],
+        "keep-require-at-start?": true
+      }
+    }
+  }
+}
