@@ -70,3 +70,5 @@ Plug 'schickling/vim-bufonly'
 Plug 'vim-scripts/paredit.vim'
 Plug 'snoe/clj-refactor.nvim', { 'do': 'yarn global add neovim' }
 Plug 'keith/swift.vim'
+Plug 'Olical/conjure', {'tag': 'v4.5.0'}
+Plug 'bakpakin/fennel.vim'
