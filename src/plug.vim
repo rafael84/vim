@@ -28,7 +28,7 @@ Plug 'majutsushi/tagbar'
 Plug 'matze/vim-move'
 Plug 'mileszs/ack.vim'
 Plug 'mxw/vim-jsx'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'for': 'clojure'}
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdtree'
@@ -46,6 +46,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 Plug 'jremmen/vim-ripgrep'
 Plug 'vim-scripts/AnsiEsc.vim'
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+Plug 'editorconfig/editorconfig-vim'
 
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-colorscheme-switcher'
