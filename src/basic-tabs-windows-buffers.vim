@@ -9,10 +9,10 @@ try
 catch
 endtry
 
-" wrap long lines in quickfix
 augroup quickfix
     autocmd!
-    autocmd FileType qf setlocal wrap
+    autocmd FileType qf setlocal nowrap
+    autocmd FileType qf wincmd L
 augroup END
 
 " Remove 'set hidden'
