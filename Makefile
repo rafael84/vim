@@ -91,7 +91,8 @@ ifdef NVIM
 	@echo '     exec ":source " . vimrc' >> $(NVIM_INIT)
 	@echo 'endif' >> $(NVIM_INIT)
 endif
-	@$(VIM) +PlugClean +PlugInstall +qall
+	@cp $(SRC)/coc-settings.json $(NVIM_DIR)/coc-settings.json
+	@$(VIM) +PlugClean +PlugInstall +UpdateRemotePlugins +qall
 	@$(VIM) +GoInstallBinaries +qall
 	@$(VIM) '+CocInstall -sync $(COC_EXTENSIONS)' +qall
 
@@ -104,4 +105,4 @@ clean:
 
 .PHONY: plug-update
 plug-update:
-	@vim +PlugUpdate +qall
+	@vim +PlugUpdate +UpdateRemotePlugins +qall

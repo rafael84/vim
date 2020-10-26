@@ -12,6 +12,10 @@ let mapleader = ","
 let g:mapleader = ","
 let maplocalleader = "\<space>"
 
+" Split directions
+set splitright
+set splitbelow
+
 " ; to : while in normal mode
 nnoremap ; :
 
