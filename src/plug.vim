@@ -10,6 +10,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'dhruvasagar/vim-zoom'
 
 " Navigation and Search
 Plug 'mileszs/ack.vim'
@@ -57,12 +58,12 @@ Plug 'majutsushi/tagbar'
 " Clojure
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}
 Plug 'tpope/vim-fireplace', {'for': 'clojure'}
+Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'vim-scripts/paredit.vim'
 Plug 'snoe/clj-refactor.nvim', { 'do': 'yarn global add neovim' }
 Plug 'Olical/conjure', {'tag': 'v4.5.0'}
 Plug 'bakpakin/fennel.vim'
-Plug 'guns/vim-sexp'
 
 " Web
 Plug 'mxw/vim-jsx'
