@@ -3,7 +3,7 @@
 "------------------------------------------------------------------------------
 let g:coc_global_extensions = ['coc-conjure']
 
-autocmd FileType clojure nmap <silent> gd <Plug>(coc-definition)
+" autocmd FileType clojure nmap <silent> gd <Plug>(coc-definition)
 autocmd FileType clojure nmap <silent> gtd <Plug>(coc-type-definition)
 autocmd FileType clojure nmap <silent> gi <Plug>(coc-implementation)
 autocmd FileType clojure nmap <silent> gr <Plug>(coc-references)
