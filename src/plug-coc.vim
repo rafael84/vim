@@ -8,6 +8,7 @@ autocmd FileType clojure nmap <silent> gtd <Plug>(coc-type-definition)
 autocmd FileType clojure nmap <silent> gi <Plug>(coc-implementation)
 autocmd FileType clojure nmap <silent> gr <Plug>(coc-references)
 autocmd FileType clojure nmap <silent> ren <Plug>(coc-rename)
+autocmd FileType clojure nmap <silent> cd <Plug>(coc-definition)
 
 autocmd FileType clojure nmap <silent> ga :CocAction<cr>
 
