@@ -45,11 +45,11 @@ Plug 'vim-scripts/AnsiEsc.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins', 'for': 'go' }
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
-  Plug 'Shougo/deoplete.nvim', {'for': 'go'}
-  Plug 'roxma/nvim-yarp', {'for': 'go'}
-  Plug 'roxma/vim-hug-neovim-rpc', {'for': 'go'}
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
 endif
 Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
 
