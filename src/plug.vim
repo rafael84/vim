@@ -10,6 +10,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'wakatime/vim-wakatime'
 
 " Navigation and Search
 Plug 'mileszs/ack.vim'
@@ -34,7 +35,6 @@ Plug 'Shougo/echodoc.vim'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'matze/vim-move'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
