@@ -57,6 +57,10 @@ Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
 Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries', 'for': 'go'}
 Plug 'majutsushi/tagbar'
 
+" Ruby
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+
 " Web
 Plug 'mxw/vim-jsx'
 Plug 'othree/html5.vim'
