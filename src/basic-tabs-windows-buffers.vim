@@ -17,3 +17,7 @@ augroup END
 
 " Remove 'set hidden'
 set nohidden
+
+" Zoom In and Zoom Out splits
+noremap Zz <c-w>_ \| <c-w>\|
+noremap Zo <c-w>=
