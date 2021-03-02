@@ -56,7 +56,6 @@ Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries', 'for': 'go'}
 Plug 'majutsushi/tagbar'
 
 " Clojure
-Plug 'guns/vim-clojure-static', {'for': 'clojure'}
 Plug 'tpope/vim-fireplace', {'for': 'clojure'}
 Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
@@ -64,7 +63,6 @@ Plug 'vim-scripts/paredit.vim'
 Plug 'snoe/clj-refactor.nvim', { 'do': 'yarn global add neovim' }
 Plug 'Olical/conjure', {'tag': 'v4.5.0'}
 Plug 'bakpakin/fennel.vim'
-Plug 'jrdoane/vim-clojure-highlight'
 
 " Web
 Plug 'mxw/vim-jsx'
