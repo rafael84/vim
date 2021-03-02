@@ -106,3 +106,7 @@ clean:
 .PHONY: plug-update
 plug-update:
 	@vim +PlugUpdate +UpdateRemotePlugins +qall
+
+.PHONY: deps
+deps:
+	@brew install borkdude/brew/clj-kondo
