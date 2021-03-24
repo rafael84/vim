@@ -5,9 +5,10 @@
 set background=dark
 
 try
-  colorscheme PaperColor
+    colorscheme hornet
+    colorscheme challenger_deep
 catch
-  colorscheme elflord
+    colorscheme elflord
 endtry
 
 
@@ -17,6 +18,11 @@ if has("gui_running")
     set guioptions-=e
     set t_Co=256
     set guitablabel=%M\ %t
+endif
+
+
+if has('nvim') || has('termguicolors')
+    set termguicolors
 endif
 
 " highlight trailing space

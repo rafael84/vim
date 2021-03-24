@@ -15,7 +15,9 @@ let g:nerdtree_tabs_focus_on_files=1
 autocmd VimEnter * if !argc() | NERDTree | endif
 
 " F2 toogles TabBar
-nmap <F2> :NERDTreeToggle<CR>
+nmap \\ :NERDTreeToggle<CR>
 
 " LF finds the current file in the tree
 nmap LF :NERDTreeFind<CR>
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

@@ -6,7 +6,6 @@ Plug 'AndrewRadev/sideways.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'bronson/vim-visual-star-search'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
@@ -17,7 +16,6 @@ Plug 'mileszs/ack.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jremmen/vim-ripgrep'
-Plug 'k0kubun/vim-open-github'
 
 " Syntax highlighting
 Plug 'flazz/vim-colorschemes'
@@ -40,10 +38,9 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/AnsiEsc.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release', 'for': 'rs' }
 
 " Auto complete
-Plug 'vim-syntastic/syntastic'
-Plug 'w0rp/ale'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -61,20 +58,19 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 
+" Rust
+Plug 'rust-lang/rust.vim'
+
 " Web
 Plug 'mxw/vim-jsx'
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 
 " Misc Languages
-Plug 'keith/swift.vim'
-Plug 'amadeus/vim-mjml'
-Plug 'udalov/kotlin-vim'
 Plug 'chase/vim-ansible-yaml'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
-Plug 'leafgarland/typescript-vim'
 Plug 'elzr/vim-json', {'for': 'json'}
 Plug 'fatih/vim-nginx', {'for': 'nginx'}

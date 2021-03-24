@@ -1,0 +1,7 @@
+{
+  "coc.preferences.useQuickfixForLocations": false,
+  "coc.preferences.jumpCommand": "drop",
+  "languageserver": {
+    "rust-analyzer": {}
+  }
+}
