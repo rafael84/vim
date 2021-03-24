@@ -17,3 +17,6 @@ augroup END
 
 " Remove 'set hidden'
 set nohidden
+
+" Add command to go back on tab
+nmap tg :tabp<CR>
