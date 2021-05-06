@@ -38,7 +38,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/AnsiEsc.vim'
-Plug 'neoclide/coc.nvim', { 'branch': 'release', 'for': 'rs' }
 
 " Auto complete
 if has('nvim')
@@ -60,6 +59,7 @@ Plug 'tpope/vim-rails'
 
 " Rust
 Plug 'rust-lang/rust.vim'
+Plug 'racer-rust/vim-racer'
 
 " Web
 Plug 'mxw/vim-jsx'
