@@ -40,6 +40,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/AnsiEsc.vim'
 
 " Auto complete
+Plug 'vim-syntastic/syntastic'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
