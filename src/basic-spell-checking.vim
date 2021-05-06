@@ -3,6 +3,7 @@
 "------------------------------------------------------------------------------
 
 " Pressing ,ss will toggle and untoggle spell checking
+set spell spelllang=en_us
 map <leader>ss :setlocal spell!<cr>
 
 " Shortcuts using <leader>
