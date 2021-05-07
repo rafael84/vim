@@ -18,8 +18,8 @@ map j gj
 map k gk
 
 " Smart way to move between windows
-map <C-Up> <C-W>j
-map <C-Down> <C-W>k
+map <C-Up> <C-W>k
+map <C-Down> <C-W>j
 map <C-Left> <C-W>h
 map <C-Right> <C-W>l
 
