@@ -19,4 +19,7 @@ augroup END
 set nohidden
 
 " Add command to go back on tab
-nmap tg :tabp<CR>
+nmap tp :tabp<CR>
+
+" Add command to go next on tab
+nmap tn :tabn<CR>

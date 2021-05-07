@@ -18,10 +18,10 @@ map j gj
 map k gk
 
 " Smart way to move between windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+map <C-Up> <C-W>j
+map <C-Down> <C-W>k
+map <C-Left> <C-W>h
+map <C-Right> <C-W>l
 
 " This is totally awesome - remap jj to escape in insert mode.
 " You'll never type jj anyway, so it's great!
